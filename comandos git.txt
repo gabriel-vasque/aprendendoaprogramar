@@ -1,0 +1,46 @@
+Inicializar Git:
+	git init
+
+Configurar dados:
+	git config --global user.name ""
+	git config --global user.email ""
+	
+Verificar status:
+	git status
+	
+Atualizar versao:
+	git add .
+	git commit -m ""
+
+Adicionar ao GitHub:
+	git remote add origin <URI do reposit¢rio remoto>
+
+Clonar GitHub:
+	git clone <URI do reposit¢rio remoto>
+
+Upload arquivos:
+	git push -u origin master
+	git push
+
+Download arquivos:
+	git pull origin master
+
+Verificar logs:
+	git log
+	git log --oneline
+
+Navegar entre commits, alterando os arquivos temporariamente:
+	git checkout <c¢digo do commit>
+
+Voltar para o £ltimo commit:
+	git checkout <nome do branch> (master)
+
+Remover o £ltimo commit mantendo as altera‡oes nos arquivos:
+	git reset --soft HEAD~1
+
+Remover o £ltimo commit INCLUSIVE as altera‡oes nos arquivos (CUIDADO!):
+	git reset --hard HEAD~1
+
+Descartar todas modifica‡oes, voltando ao estado do commit atual:
+	git clean -df
+	git checkout -- .

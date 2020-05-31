@@ -15,6 +15,24 @@ namespace Exercicios_Aula
             exe();
         }
 
+        static void _aula19()
+        {
+            double largura, comprimento, preçoMetroQuadrado, area, preço;
+
+            largura = double.Parse(Console.ReadLine());
+            comprimento = double.Parse(Console.ReadLine());
+            preçoMetroQuadrado = double.Parse(Console.ReadLine());
+
+            area = largura * comprimento;
+            preço = area * preçoMetroQuadrado;
+
+            Console.WriteLine("AREA = " + area.ToString("f2"));
+            Console.WriteLine("PREÇO = " + preço.ToString("f2"));
+
+            Console.WriteLine("arroz");
+            Console.ReadLine();
+        }
+
         static void _aula58()
         {
             int nTeste = int.Parse(Console.ReadLine());

@@ -1,6 +1,0 @@
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula19\Aula19\bin\Debug\Aula19.exe.config
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula19\Aula19\bin\Debug\Aula19.exe
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula19\Aula19\bin\Debug\Aula19.pdb
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula19\Aula19\obj\Debug\Aula19.csprojResolveAssemblyReference.cache
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula19\Aula19\obj\Debug\Aula19.exe
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula19\Aula19\obj\Debug\Aula19.pdb

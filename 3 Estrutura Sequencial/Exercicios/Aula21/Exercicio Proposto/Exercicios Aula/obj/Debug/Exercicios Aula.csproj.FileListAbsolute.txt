@@ -1,7 +1,0 @@
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula21\Exercicio Proposto\Exercicios Aula\bin\Debug\Exercicios Aula.exe.config
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula21\Exercicio Proposto\Exercicios Aula\bin\Debug\Exercicios Aula.exe
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula21\Exercicio Proposto\Exercicios Aula\bin\Debug\Exercicios Aula.pdb
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula21\Exercicio Proposto\Exercicios Aula\obj\Debug\Exercicios Aula.exe
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula21\Exercicio Proposto\Exercicios Aula\obj\Debug\Exercicios Aula.pdb
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula21\Exercicio Proposto\Exercicios Aula\obj\Debug\Exercicios Aula.csprojAssemblyReference.cache
-C:\Users\Jáder Vasque\Desktop\Lógica de Programação\3 Estrutura Sequencial\Exercicios\Aula21\Exercicio Proposto\Exercicios Aula\obj\Debug\Exercicios Aula.csproj.CoreCompileInputs.cache

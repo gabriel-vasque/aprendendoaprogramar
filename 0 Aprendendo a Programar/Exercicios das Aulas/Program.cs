@@ -14,7 +14,7 @@ namespace Exercicios_Aula
         {
             exe();
         }
-
+        #region Resolvidos
         static void _aula19()
         {
             double largura, comprimento, preçoMetroQuadrado, area, preço;
@@ -455,7 +455,7 @@ namespace Exercicios_Aula
             }
             Console.ReadLine();
         }
-
+        #endregion
         static void exe()
         {
             int filas = int.Parse(Console.ReadLine());
@@ -470,12 +470,31 @@ namespace Exercicios_Aula
                 }
             }
             int nFila = int.Parse(Console.ReadLine()) - 1;
-            int last = mat[nFila, colunas - 1];
-            for (int i = colunas - 1; i > 0;)
+            //int last = mat[nFila, colunas - 1];
+            //for (int i = colunas - 1; i > 0;)
+            //{
+            //    mat[nFila, i] = mat[nFila, --i];
+            //}
+            //mat[nFila, 0] = last;
+            //for (int i = 0; i < filas; i++)
+            //{
+            //    for (int t = 0; t < colunas; t++)
+            //    {
+            //        Console.Write($"{mat[i, t]} ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine();
+            int x = 0;
+            int y = mat[nFila, 0];
+            for (int i = 1; i < colunas; i++)
             {
-                mat[nFila, i] = mat[nFila, --i];
+                x = mat[nFila, i];
+                mat[nFila, i] = y;
+                y = x;
             }
-            mat[nFila, 0] = last;
+            mat[nFila, 0] = y;
             for (int i = 0; i < filas; i++)
             {
                 for (int t = 0; t < colunas; t++)

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio Proposto", "ExerciciosURI\Exercicios URI.csproj", "{A05D2365-B3E8-4064-93F5-433A857CC305}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios URI", "ExerciciosURI\Exercicios URI.csproj", "{A05D2365-B3E8-4064-93F5-433A857CC305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios Aula", "Exercicios das Aulas\Exercicios das Aulas.csproj", "{146CCFB2-D793-4D60-BAA5-8A41B96DF2CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicios das Aulas", "Exercicios das Aulas\Exercicios das Aulas.csproj", "{146CCFB2-D793-4D60-BAA5-8A41B96DF2CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {979C6EDD-66D4-4298-8EC8-C9B5F3928ECF}
 	EndGlobalSection
 EndGlobal

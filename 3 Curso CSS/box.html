@@ -5,7 +5,24 @@
     <meta charset="UTF-8">
     <title>Box Model</title>
     <style>
-        /* ... */
+        body{ font-size: 80px; margin: 0; }
+        .c1{ background-color: orange; }
+        .c2{ background-color: skyblue; }
+        .c3{ background-color: tomato; }
+
+        div{
+            float: left;
+            padding-top: 100px;
+            padding: 10px 50px 100px 150px;
+            padding: 50px;
+            margin: 10px 20px;
+            border: solid 15px black;
+            transition: 1ms;
+        }
+        
+        div:hover{
+            background-color: yellowgreen;
+        }
     </style>
 </head>
 
@@ -16,3 +33,19 @@
 </body>
 
 </html>
+
+<!-- 
+    
+    <margin>
+        <border>
+            <padding>
+                <context/>
+            </padding>
+        </border>
+    </margin>
+    
+    margin: 5px; -------------------- aplica em todos os lados
+    margin: 10px 50px; -------------- aplica 10px em top/botton e 50px na rigth/left
+    margin: 10px 50px 60px 100px ---- aplica, repectivamente, top, rigth, botton, left (sentido horário)
+
+ -->

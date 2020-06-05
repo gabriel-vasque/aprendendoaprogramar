@@ -6,7 +6,10 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+  section > span:nth-of-type(2) {
+            color: #ff0;
+            background-color: #f77;
+        }
     </style>
 </head>
 
@@ -29,7 +32,7 @@
             </ol>
             <div id='aninhado' class='tag'>
                 <div class="tag">
-                    <section class='tag'>
+                    <section class='tag nolabel'>
                         <span class='tag'>1</span>
                         <p class='tag'>2</p>
                         <span class='tag'>3</span>
@@ -42,3 +45,25 @@
 </body>
 
 </html>
+
+<!--
+
+    SELETORES
+
+    * --------------- seleciona todas as tags (universal)
+    elem ------------ (nome do elemento) seleciona todas as tags com o respectivo nome;
+    .class ---------- seleciona todas as classes com o respectivo nome;
+    #id ------------- seleciona todos os ids com o respectivo nome;
+    [atributo]-------seleciona todos os atributos com o respectivo nome;
+
+    :pseudo-class -------- aplica todas as classes com a respectiva ação;
+    ::pseudo-elementos --- aplica seletores diferentes Ex.: first-line, first-letter
+
+    COMBINAR SELETORES
+
+    div + p --------- adjacent simbling (irmão adjacente) aplica a todos os irmãos que estão dentro de um mesmo pai;
+    div ~ p --------- general simbling (irmão geral);
+    div > p --------- child (filho direto) qualquer elemento que esteja diretamente dentro do respectivo elemento;
+    div p ----------- descendent (descendente) qualquer elemento que esteja dentro do respectivo elemento;
+
+  -->

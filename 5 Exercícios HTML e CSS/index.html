@@ -5,19 +5,27 @@
     <style>
         * {
             box-sizing: border-box;
+            /* border: solid 0.5px violet */
+        }
+
+        .colors {
+            color: #fffcf2;
+            color: #ccc5b9;
+            color: #403d39;
+            color: #252422;
+            color: #eb5e28;
         }
 
         body {
-            background-color: darkgray;
             margin: 0;
-            font-family: 'Lucida Sans', sans-serif;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
         }
-        
+
         .cabecalho {
-            height: 120px;
+            /* height: 120px; */
             width: 100%;
-            background-color: white;
-            position: absolute;
+            background-color: #fffcf2;
+            /* position: absolute; */
         }
 
         .logo {
@@ -30,14 +38,14 @@
             width: 100%;
         }
 
-        .menu{
-            position: relative;
+        .menu {
             font-size: 20px;
             height: 73px;
             width: 100%;
-            background-color: gray;
-            vertical-align: top;
-            padding: 25px;
+            background-color: #252422;
+            /* padding: 0px 25px; */
+            box-sizing: content-box;
+            overflow: hidden;
         }
 
         .menu ul {
@@ -47,45 +55,95 @@
 
         .menu li {
             display: inline-block;
+            float: left;
+            vertical-align: top;
+            padding: 0px 15px;
+
         }
 
         .menu a {
-            color: white;
+            color: #ccc5b9;
             height: 75px;
             text-decoration: none;
-            padding: 25px
+            padding: 26px;
+            display: block;
         }
 
         .menu a:hover {
-            background-color: rgba(65, 125, 182, 0.7);
-            color: black;
+            transition: 400ms;
+            background-color: #eb5e28;
+            color: #fffcf2;
         }
 
-        .apresentacao {
+        .sec-bemVindo {
+            background-color: #403d39;
             height: 610px;
             font-size: 27px;
             position: relative;
         }
 
-        .apresentacao h1 {
-            width: 450px;
+        .sec-bemVindo .conteudo {
             position: absolute;
-            margin: 0;
-            right: 0px;
+            right: 70px;
             bottom: 129px;
-            color: white;
+
         }
 
-        .apresentacao h2 {
-            width: 450px;
-            position: absolute;
+        .sec-bemVindo p {
             margin: 0;
-            right: 0px;
-            bottom: 80px;
-            color: rgb(233, 74, 0);
+            width: 350px;
+            color: #fffcf2;
         }
 
-        
+        .sec-bemVindo h1 {
+            width: 350px;
+            margin: 0;
+            color: #eb5e28;
+        }
+
+        .sec-apresentacao h2{
+            /* display: inline-block; */
+            vertical-align: top;
+            text-align: center;
+            font-size: 40px;
+            color:#eb5e28;
+        }
+
+        .sec-apresentacao p {
+            vertical-align: top;
+            text-align: center;
+            padding: 0px 365px;
+            font-size: 20px;
+
+        }
+
+        .sec-apresentacao .nosso-time {
+            display: flex;
+            justify-content: center;
+            padding: 80px;
+            box-sizing: content-box;
+        }
+
+        .foto {
+            display: inline-block;
+            /* height: 205px; */
+            width: 25%;
+            height: 420px;
+            margin: 10px;
+
+        }
+        .foto .img{
+            width: 100%;
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .foto p {
+            vertical-align: top;
+            text-align: center;
+            
+        }
 
     </style>
 </head>
@@ -93,35 +151,89 @@
 <body>
     <header class="cabecalho">
         <div class="logo">
-                <img src="img/logoTop.png" alt="Logo"/>
+            <img src="img/logoTop.png" alt="Logo" />
         </div>
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="#inicio">Início</a>
+                    <a href="#">Início</a>
                 </li>
                 <li>
-                    <a href="#sobre">Sobre</a>
+                    <a href="#">Sobre</a>
                 </li>
                 <li>
-                    <a href="#servicos">Serviços</a>
+                    <a href="#">Serviços</a>
                 </li>
                 <li>
-                    <a href="#depoimentos">Depoimentos</a>
+                    <a href="#">Depoimentos</a>
                 </li>
                 <li>
-                    <a href="#portifolio">Portifólio</a>
+                    <a href="#">Portifólio</a>
                 </li>
                 <li>
-                    <a href="#contatos">Contatos</a>
+                    <a href="#">Contatos</a>
                 </li>
             </ul>
         </nav>
-        <div class="apresentacao">
-            <h1>Bem-Vindo a</h1>
-            <h2>Fáleger bank</h2>
-        </div>
     </header>
+
+    <section class="sec-bemVindo">
+        <div class="conteudo">
+            <p>Bem-Vindo a</p>
+            <h1>Fáleger bank</h1>
+        </div>
+    </section>
+
+    <section class="sec-apresentacao">
+        <h2>Líder(es)</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat
+        </p>
+        <div class="nosso-time">
+
+            <div class="foto">
+                <div class="img" style="background-image: url('img/Andre Marques.png')"></div>
+
+                <!-- <img src="img/Andre Marques.png" alt="foto" /> -->
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="foto">
+                <div class="img" style="background-image: url('img/CJ.png')"></div>
+
+                <!-- <img src="img/CJ.png" alt="foto" /> -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+            </div>
+            <div class="foto">
+                <div class="img" style="background-image: url('img/BATIMA.png')"></div>
+
+                <!-- <img src="img/BATIMA.png" alt="foto" /> -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+
+    </section>
 </body>
 
 </html>

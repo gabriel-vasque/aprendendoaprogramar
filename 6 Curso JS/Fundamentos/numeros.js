@@ -20,3 +20,6 @@ console.log(media.toString())
 //converter valor em bínario
 console.log(media.toString(2))
 console.log(typeof media)
+console.log(typeof Number)
+
+

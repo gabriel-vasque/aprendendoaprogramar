@@ -18,7 +18,7 @@ console.log(valores)
 console.log(valores.pop())
 
 //remove o primeiro valor do array
-delete valores[0]01
+delete valores[0]
 console.log(valores)
 
 console.log(typeof valores)

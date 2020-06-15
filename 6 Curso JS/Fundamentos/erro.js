@@ -9,7 +9,7 @@ function imprimirNomeGritado(obj) {
         tratarErroELancar(e)
     } finally {
         console.log('final')
-    }
+    }s
 }
 
 const obj = { name: 'Nas crianças Gezuxx' }

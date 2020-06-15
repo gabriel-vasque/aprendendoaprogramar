@@ -1,0 +1,73 @@
+
+/**
+ * 
+ * 1. LER AS ENTRADAS DO USUÁRIO
+ * 
+ * 2. CALCULAR A QUANTIDADE DE NOTAS
+ *      2.1 PEGAR O INTEIRO DO VALOR E DIVIDIR PELO VALOR DA NOTA DESEJADO
+ *      2.2 PEGAR O RESTO DA DIVISÃO E DEVIDIR PELA PRÓXIMA NOTA
+ *      2.3 FAZER ISSO COM TODAS AS NOTAS
+ * 
+ * 3. CALCULAR A QUANTIDADE DE MOEDAS
+ *      3.1 PEGAR O RESTO DAS NOTAS E SOMAR COM OS CENTAVOS DIGITADOS INICIALMENTE
+ *      3.2 EXECUTAR O MESMO PROCESSO DAS NOTAS
+ *      3.3 FAZER ISSO COM TODAS AS MOEDAS
+ * 
+ * 4. IMPRIMIR O RESULTADO NA TELA
+ *      4.1 IMPRIMIR 'NOTAS:'
+ *      4.2 IMPRIMIR A QUANTIDADE DE CADA UM DAS NOTAS
+ *      4.3 IMPRIMIR 'MOEDAS:'
+ *      4.4 IMPRIMIR A QUANTIDADE DE CADA UMA DAS MOEDAS
+ * 
+ * 5. ANÁLISE
+ *      5.1 QUAIS OBJETOS SERÃO GERADOS?
+ *          5.1.1 OBJETO PARA ARMAZENAR...
+ * 
+ * 
+ */
+
+const notasEMoedas = {
+    notas: {
+        _100: 0,
+        _50: 0,
+        _20: 0,
+        _10: 0,
+        _5: 0,
+        _2: 0
+    },
+    moedas: {
+        _100: 0,
+        _50: 0,
+        _25: 0,
+        _10: 0,
+        _5: 0,
+        _1: 0
+    }
+}
+
+const notasDisponiveis = [100, 50, 20, 10, 5, 2]
+const moedasDisponiveis = [1, 0.5, 0.25, 0.1, 0.05, 0.01]
+
+const valorInicial = parseFloat('576.73')
+const valorTrucado = Math.trunc(valorInicial)
+let valorDecimal = valorInicial - valorTrucado
+
+/**
+ * 
+ * @param {Number} valorTruncado 
+ */
+function CalcularNotas(valorTruncado) {
+
+    //retornar o resto do inteiro
+}
+
+valorDecimal += CalcularNotas(valorTrucado)
+
+/**
+ * 
+ * @param {Number} valorDecimal 
+ */
+function CalcularMoedas(valorDecimal) {
+
+    //sem retorno
+}
